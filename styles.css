@@ -17,6 +17,7 @@ h3 {
 footer {
   display: flex;
   justify-content: flex-end;
+  gap: 15px;
 }
 
 a {
@@ -28,8 +29,8 @@ a:hover {
 }
 
 .social-img {
+  height: 30px;
   width: 30px;
-  padding-left: 15px;
 }
 
 .social-img:hover {
