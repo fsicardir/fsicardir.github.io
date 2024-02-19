@@ -57,20 +57,32 @@ a:hover {
   0% {
     transform: rotate(0deg) translate(40px, -40px);
   }
-  25% {
-    transform: rotate(7deg) translate(30px, -30px);
+  10% {
+    transform: rotate(5deg) translate(36px, -36px);
   }
-  35% {
-    transform: rotate(0deg) translate(26px, -26px);
+  20% {
+    transform: rotate(0deg) translate(32px, -32px);
+  }
+  30% {
+    transform: rotate(-5deg) translate(28px, -28px);
+  }
+  40% {
+    transform: rotate(0deg) translate(24px, -24px);
   }
   50% {
-    transform: rotate(-7deg) translate(20px, -20px);
+    transform: rotate(5deg) translate(20px, -20px);
   }
-  65% {
-    transform: rotate(0deg) translate(14px, -14px);
+  60% {
+    transform: rotate(0deg) translate(16px, -16px);
   }
-  75% {
-    transform: rotate(7deg) translate(10px, -10px);
+  70% {
+    transform: rotate(-5deg) translate(12px, -12px);
+  }
+  80% {
+    transform: rotate(0deg) translate(8px, -8px);
+  }
+  90% {
+    transform: rotate(5deg) translate(4x, -4px);
   }
   100% {
     transform: rotate(0deg) translate(0, 0);
