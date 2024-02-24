@@ -29,8 +29,16 @@
       <p>In this fast-paced IT world, I'm dedicated to continuous learning and growth, always eager to stay ahead of the curve. Let's connect and collaborate!</p>
     </main>
     <footer>
+      <a id="email" aria-hidden="true" href="mailto:honeypot@fsicardi.ar" target="_blank"><img class="social-img" src="assets/linkedin-logo.png" alt="Email"></a>
+      <a id="enc" href="" target="_blank"><img class="social-img" src="assets/mail.png" alt="Email"></a>
       <a href="https://linkedin.com/in/franciscosicardi" target="_blank"><img class="social-img" src="assets/linkedin-logo.png" alt="LinkedIn"></a>
       <a href="https://github.com/fsicardir" target="_blank"><img class="social-img" src="assets/github-logo.svg" alt="Github"></a>
     </footer>
+    <script>
+      const enc1 = "YXNkZmhyZWZxd2Vy";
+      const enc2 = "bWFpbHRvOnRlc3RkZXZAZnNpY2FyZGkuYXI=";
+      const form = document.getElementById("enc");
+      form.setAttribute(atob(enc1).slice(4, -4), atob(enc2).replace("test", ""));
+    </script>
   </body>
 </html>

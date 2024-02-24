@@ -36,7 +36,8 @@ a:hover {
 
 .social-img {
   height: 30px;
-  width: 30px;
+  min-width: 30px;
+  max-width: 40px;
 }
 
 .social-img:hover {
@@ -93,4 +94,8 @@ a:hover {
   100% {
     transform: rotate(0deg) translate(0, 0);
   }
+}
+
+#email {
+  display: none;
 }
