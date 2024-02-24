@@ -7,12 +7,17 @@ body {
   color: #ebdbb2;
   padding: 0 10px;
   font-family: Roboto, sans-serif;
+  letter-spacing: 0.06em;
 }
 
 h1,
 h2,
 h3 {
   line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.1em;
 }
 
 footer {
