@@ -7,7 +7,6 @@ body {
   color: #ebdbb2;
   padding: 0 12px;
   font-family: Roboto, sans-serif;
-  font-display: block;
   letter-spacing: 0.06em;
 }
 
@@ -106,21 +105,21 @@ a:hover {
   font-family: Roboto;
   src: local(Roboto), local(Roboto-Regular), url(assets/fonts/Roboto-Regular.ttf) format("truetype");
   font-weight: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
   font-family: Roboto;
   src: local(Roboto-Bold), url(assets/fonts/Roboto-Bold.ttf) format("truetype");
   font-weight: bold;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
   font-family: Roboto;
   src: local(Roboto-Italic), url(assets/fonts/Roboto-Italic.ttf) format("truetype");
   font-style: italic;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -128,5 +127,5 @@ a:hover {
   src: local(Roboto-BoldItalic), url(assets/fonts/Roboto-BoldItalic.ttf) format("truetype");
   font-style: italic;
   font-weight: bold;
-  font-display: swap;
+  font-display: block;
 }
