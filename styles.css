@@ -115,3 +115,19 @@ a:hover {
   font-display: block;
 }
 
+@font-face {
+  font-family: Helvetica;
+  src: local(Helvetica-Oblique), local(Helvetica-Oblique), url(assets/fonts/Helvetica-Oblique.ttf) format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: block;
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: local(Helvetica-BoldOblique), url(assets/fonts/Helvetica-BoldOblique.ttf) format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: block;
+}
+
