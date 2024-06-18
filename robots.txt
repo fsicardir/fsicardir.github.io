@@ -1,0 +1,6 @@
+User-agent: *
+# Hello there! 🤖
+Disallow: /assets
+Dissalow: styles.css
+Dissalow: 404.html
+Dissalow: CNAME
