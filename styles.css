@@ -48,12 +48,6 @@ a:hover {
   color: #d65d0e;
 }
 
-.social-img {
-  height: 30px;
-  min-width: 30px;
-  max-width: 40px;
-}
-
 .social-img:hover {
   animation-name: social-img-animation;
   animation-duration: 0.25s;
